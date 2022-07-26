@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',                  //nombre del componente
@@ -7,10 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Contador App';
-  numero: number  = 10;
+  numero: number = 10;
+  base: number = 5;
 
 
-acumular(valor: number){
-  this.numero += valor;
-}
+  acumular(valor: number) {
+    this.numero += valor;
+  }
+
+
 }
