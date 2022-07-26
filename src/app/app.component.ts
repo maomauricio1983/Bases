@@ -10,11 +10,7 @@ export class AppComponent {
   numero: number  = 10;
 
 
-  sumar(){
-    this.numero += 1;
-  }
-
-  restar(){
-    this.numero -= 1;
-  }
+acumular(valor: number){
+  this.numero += valor;
+}
 }
